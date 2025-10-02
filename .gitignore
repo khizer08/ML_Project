@@ -1,0 +1,18 @@
+# Node.js
+# Ignore all node_modules folders
+node_modules/
+npm-debug.log
+
+# Python
+# Ignore the virtual environment folder
+ml_env/
+
+# Ignore Python cache files
+__pycache__/
+
+# Optional: Ignore the trained model file, as it can be recreated by running train_model.py
+# weather_model.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db

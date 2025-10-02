@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Predict the Temperature</h1>
+        <p>Enter the current conditions to predict the temperature.</p>
+        <form id="weather-form">
+            <div class="form-group">
+                <label for="humidity">Current Humidity (0 to 1)</label>
+                <input type="number" step="any" id="humidity" placeholder="e.g., 0.75" required>
+            </div>
+            <div class="form-group">
+                <label for="wind-speed">Current Wind Speed (km/h)</label>
+                <input type="number" step="any" id="wind-speed" placeholder="e.g., 10.5" required>
+            </div>
+            <button type="submit" id="predict-btn">Predict</button>
+        </form>
+        <div id="result-container">
+            <h2 id="result"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
