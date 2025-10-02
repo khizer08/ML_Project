@@ -6,3 +6,5 @@ python api.py
 
 # 3. again activate the ml in new terminal then go to backend folder then run:-
 node server.js
+
+## HAPPY CODING :)
