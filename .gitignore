@@ -10,8 +10,9 @@ ml_env/
 # Ignore Python cache files
 __pycache__/
 
-# Ignore the trained model file, as it can be recreated by running train_model.py
+# Ignore the trained model files, as it can be recreated by running train_model.py and train_rain_model
 weather_model.pkl
+rain_model.pkl
 
 # OS-specific files
 .DS_Store

@@ -25,6 +25,33 @@
             <h2 id="result"></h2>
         </div>
     </div>
+
+<div class="container">
+    <h1>Predict if it Will Rain</h1>
+    <p>Enter the conditions to predict the likelihood of rain.</p>
+    <form id="rain-form">
+        <div class="form-group">
+            <label for="temperature">Current Temperature (°C)</label>
+            <input type="number" step="any" id="temperature" placeholder="e.g., 20" required>
+        </div>
+        <div class="form-group">
+            <label for="apparent-temp">Apparent (Feels Like) Temp (°C)</label>
+            <input type="number" step="any" id="apparent-temp" placeholder="e.g., 19.5" required>
+        </div>
+        <div class="form-group">
+            <label for="rain-humidity">Current Humidity (0 to 1)</label>
+            <input type="number" step="any" id="rain-humidity" placeholder="e.g., 0.85" required>
+        </div>
+        <div class="form-group">
+            <label for="pressure">Pressure (millibars)</label>
+            <input type="number" step="any" id="pressure" placeholder="e.g., 1012" required>
+        </div>
+        <button type="submit" id="rain-predict-btn">Predict Rain</button>
+    </form>
+    <div id="rain-result-container">
+        <h2 id="rain-result"></h2>
+    </div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
