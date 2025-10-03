@@ -40,6 +40,5 @@ app.post('/predict', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`server is running on http://localhost:${PORT}`);
-    console.log(`Ensure the Python API server is also running.`);
+    console.log(`server is running on ${PORT}`);
 });
