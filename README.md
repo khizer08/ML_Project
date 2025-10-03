@@ -10,4 +10,4 @@ python api.py
 # 4. again activate the ml in new terminal then run:-
 node server.js
 
-## HAPPY CODING :)
+## HAPPY CODING :smile:
