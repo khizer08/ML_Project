@@ -11,7 +11,7 @@ ml_env/
 __pycache__/
 
 # Optional: Ignore the trained model file, as it can be recreated by running train_model.py
-# weather_model.pkl
+weather_model.pkl
 
 # OS-specific files
 .DS_Store
