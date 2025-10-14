@@ -1,6 +1,11 @@
 # 1. activate the ml:-
 .\ml_env\Scripts\activate
 
+# ignore
+Remove-Item -Recurse -Force .\ml_env
+python -m venv ml_env
+
+
 # 2. go to backend run python file to train the models:-
 python train_model.py
 python train_rain_model.py
