@@ -1,7 +1,6 @@
 # Node.js
 # Ignore all node_modules folders
 node_modules/
-npm-debug.log
 
 # Python
 # Ignore the virtual environment folder
